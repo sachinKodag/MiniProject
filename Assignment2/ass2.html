@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+		<link rel="stylesheet" type="text/css" href="assign2.css">
+    </head>
+    <body>
+    <h1>Patient Details</h1>
+    <form>
+    <fieldset>
+		<legend>Personal Information</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname">
+    <br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">FEMALE</label>
+    <input type="radio" name="gender" id="male">
+    <label for="male">MALE</label>
+    <br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname">
+    <br><br>
+    <label for="nationality">Nationality:</label>
+    <select name="nationality" id="nationality">
+        <option value="Indian">Indian</option>
+        <option value="Candian">Candian</option>
+        <option value="USA">USA</option>
+    </select>
+    <br><br>
+    <p>Address:</p>
+    <textarea rows='10' cols='50' wrap='physical'></textarea>
+	</fieldset>
+    </form>
+    <br><br>
+    <form>
+	 <fieldset>
+        <legend>Medical History</legend>
+        <input type="checkbox" name="smallpox">
+        <label for="smallpox">Smallpox</label>
+        <input type="checkbox" name="Mumps">
+        <label for="Mumps">Mumps</label>
+        <input type="checkbox" name="dizzness">
+        <label for="dizzness">Dizzness</label>
+        <input type="checkbox" name="Sneezing">
+        <label for="Snezzing">Sneezing</label>
+	 </fieldset>
+    </form>
+    <br><br>
+    <form>
+	<fieldset>
+        <legend>Current Medication</legend>
+        <label for="stauts">Are you currently taking any medication? </label>
+        <input type="radio" name="status" id="Yes">
+        <label for="status">Yes</label>
+        <input type="radio" name="status" id="No"> 
+        <label for="status">No</label>
+        <br>
+        <p>If your currently taking medication, please indicate it in space below:</p>
+        <textarea rows='10' cols='50' wrap='physical'></textarea>
+	</fieldset>
+    </form>
+    
+    <button>Submit</button>
+    <button>Reset</button>
+    </body>
+</html>
